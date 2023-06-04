@@ -13,12 +13,53 @@ h1{
     color: rgb(42, 23, 138);
 }
 
-div{
-    background:pink;
-}
-
 span{
     color: yellow;
     font-size: 40px;
     font-weight: bold;
+}
+
+#top-section {
+    background: pink;
+}
+
+#bottom-section{
+    background: green;
+}
+
+.intro{
+    font-size: 30px;
+    color: yellow;
+}
+
+.highlight {
+    color: aquamarine;
+}
+
+.accent-color {
+    color: red
+}
+
+/* the CSS box model */
+
+/*  Margin: empty space around my element
+    Border: a border / stroke / around my element
+    Padding: empty space with background around my element
+
+    all of these add on top of the width and height
+*/
+
+.box {
+    background:pink;
+    width: 300px;
+    margin: 50px;
+
+    border-left-width: 5px;
+    border-left-color: red;
+    border-left-style: solid;
+
+    border-right-width: 10px;
+    border-right-style: groove;
+    border-right-color: green;
+    padding: 50px 100px 300px 25px; /*top right bottom left*/
 }
