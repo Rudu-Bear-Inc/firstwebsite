@@ -1,23 +1,37 @@
 body{
-    background-color: #bccbce;
-    background-image: url(../img/leaves.webp);
+    background-color: #69becf;
     color: #28236b;
     font-size: 21px;
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; 
 }
 
 p{
     color: rgb(83, 83, 173);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 15px;
+    
+    font-weight: lighter;
+    text-align: left;
+    
 }
 
 h1{
     font-size: 70px;
     color: rgb(42, 23, 138);
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
 }
 
 span{
     color: yellow;
-    font-size: 40px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 #top-section {
@@ -67,4 +81,12 @@ span{
     border-right-style: groove;
     border-right-color: green;
     padding: 50px 100px 300px 25px; /*top right bottom left*/
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
 }
