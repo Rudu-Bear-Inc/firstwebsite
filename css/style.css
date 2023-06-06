@@ -1,5 +1,6 @@
 body{
     background-color: #bccbce;
+    background-image: url(../img/leaves.webp);
     color: #28236b;
     font-size: 21px;
 }
@@ -51,7 +52,11 @@ span{
 
 .box {
     background:pink;
-    width: 300px;
+    background-image: url(../img/cat.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
     margin: 50px;
 
     border-left-width: 5px;
