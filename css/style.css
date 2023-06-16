@@ -3,11 +3,10 @@ body{
     color: #28236b;
     font-size: 21px;
     font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; 
-    text-align: center;
+    text-align: left;
 }
 
 p{
-    color: firebrick;
     margin-top: 0px;
     margin-bottom: 20px;
     line-height: 1.4;
@@ -15,7 +14,6 @@ p{
     
     font-weight: lighter;
     text-align: left;
-    
 }
 
 h1{
@@ -55,9 +53,6 @@ a:active {
     color: pink;
 }
 */
-img:hover {
-    display: flex;
-}
 
 #top-section {
     background: pink;
@@ -172,3 +167,22 @@ ol li {
     margin-bottom: 10px;
     color: white;
 }
+
+.red-box {
+    width: 500px;
+    background: rgba(255,0,0,0.5);
+    margin-right: 50px;
+    float:left;
+}
+
+.blue-box {
+    width: 500px;
+    background: blue;
+    color: white;
+    float:right;
+}
+
+img {
+    margin-right: 20px;
+}
+
