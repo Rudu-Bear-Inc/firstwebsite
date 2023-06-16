@@ -186,3 +186,9 @@ img {
     margin-right: 20px;
 }
 
+.container {
+    background: white;
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
