@@ -1,0 +1,60 @@
+body{
+    background-color: #69becf;
+    color: #28236b;
+    font-size: 21px;
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; 
+    text-align: left;
+    background-image: url(../img/cat.jpg);
+}
+
+.box {
+    float:left
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background: pink;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    background: #FF0000
+}
+.box3 {
+    height: 100px;
+    width: 100px;
+    background: firebrick;
+}
+.box4 {
+    height: 100px;
+    width: 100px;
+    background: orange;
+}
+.box5 {
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    clear:both;
+}
+.box6 {
+    height: 100px;
+    width: 100px;
+    background: greenyellow;
+}
+.box7 {
+    height: 100px;
+    width: 100px;
+    background: green;
+}
+.box8 {
+    height: 300px;
+    width: 300px;
+    background: rgba(0,0,255,0.5);
+}
+.box9 {
+    height: 300px;
+    width: 300px;
+    background: rgba(255,0,255,0.25);
+}
+
