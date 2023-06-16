@@ -3,6 +3,7 @@ body{
     color: #28236b;
     font-size: 21px;
     font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; 
+    text-align: center;
 }
 
 p{
@@ -140,4 +141,34 @@ a:hover, a:focus {
 .important-link,
 .body-text .important-link {
     color: yellow !important;
+}
+
+
+ol {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-image: url(../img/icons/icons8-try-and-buy-24.png);
+    background-color: pink;
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ul li {
+    background: red;
+    margin-bottom: 5px;
+}
+
+ol {
+    background: lightblue;
+    padding: 50px;;
+}
+
+ol li {
+    background: blue;
+    margin-bottom: 10px;
+    color: white;
 }
